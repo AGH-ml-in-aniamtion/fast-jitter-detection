@@ -2,6 +2,8 @@
 
 This is the repository related to the publication "Fast Detection of Jitter Artifacts in Human Motion Capture Models" [from GRAPP 2025 conference](https://www.insticc.org/node/TechnicalProgram/VISIGRAPP/2025/presentationDetails/131444).
 
+The implementation of MDC and MDCSS metrics can be found [here](https://github.com/AGH-ml-in-aniamtion/fast-jitter-detection/blob/main/src/metrics/dataset_metrics.py#L4).
+
 
 ## Installation and running
 Suggested to run in a separate Python virtual environment (tested on Python 3.10).

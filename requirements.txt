@@ -1,0 +1,6 @@
+dataclasses-json
+numpy
+torch
+scipy
+matplotlib
+scikit-learn

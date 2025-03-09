@@ -1,0 +1,35 @@
+{
+  "dataset_name": "lafan1",
+  "related_publication": "Robust Motion In-betweening",
+  "location": "data/datasets/bvh/lafan1",
+  "format": "bvh",
+  "fps": 30,
+  "feet_info": {
+    "left_idx": [3, 4],
+    "right_idx": [7, 8]
+  },
+  "train_config": {
+    "window": null,
+    "offset": 1,
+    "start_frame": 0,
+    "shuffle": false,
+    "file_matcher": "prefix",
+    "match_values": [
+      "aiming2_subject3"
+    ]
+  },
+  "test_config": {
+    "window": 65,
+    "offset": 40,
+    "start_frame": 0,
+    "shuffle": false,
+    "file_matcher": "suffix",
+    "match_values": [
+      "aiming2_subject3"
+    ]
+  },
+  "preprocessing_config": {
+    "start_centered": true,
+    "skeleton_scale": 1
+  }
+}

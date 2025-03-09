@@ -1,0 +1,35 @@
+{
+  "dataset_name": "h36m",
+  "related_publication": "Robust Motion In-betweening",
+  "location": "data/datasets/bvh/h36m",
+  "format": "bvh",
+  "fps": 30,
+  "feet_info": {
+    "left_idx": [19, 20],
+    "right_idx": [23, 24]
+  },
+  "train_config": {
+    "window": null,
+    "offset": 1,
+    "start_frame": 0,
+    "shuffle": false,
+    "file_matcher": "prefix",
+    "match_values": [
+      "Directions1_subject11"
+    ]
+  },
+  "test_config": {
+    "window": 65,
+    "offset": 40,
+    "start_frame": 0,
+    "shuffle": false,
+    "file_matcher": "suffix",
+    "match_values": [
+      "Directions1_subject11"
+    ]
+  },
+  "preprocessing_config": {
+    "start_centered": true,
+    "skeleton_scale": 1
+  }
+}

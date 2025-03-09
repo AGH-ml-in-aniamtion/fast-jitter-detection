@@ -1,0 +1,35 @@
+{
+  "dataset_name": "bandai1",
+  "related_publication": "Motion Capture Dataset for Practical Use of AI-based Motion Editing and Stylization",
+  "location": "data/datasets/bvh/bandai-research-1",
+  "format": "bvh",
+  "fps": 30,
+  "feet_info": {
+    "left_idx": [15, 16],
+    "right_idx": [19, 20]
+  },
+  "train_config": {
+    "window": null,
+    "offset": 1,
+    "start_frame": 0,
+    "shuffle": false,
+    "file_matcher": null,
+    "match_values": [
+      "dataset-1_bow_active_001"
+    ]
+  },
+  "test_config": {
+    "window": 65,
+    "offset": 40,
+    "start_frame": 0,
+    "shuffle": false,
+    "file_matcher": "suffix",
+    "match_values": [
+      "1_bow_active_001"
+    ]
+  },
+  "preprocessing_config": {
+    "start_centered": true,
+    "skeleton_scale": 1
+  }
+}

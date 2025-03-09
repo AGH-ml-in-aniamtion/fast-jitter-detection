@@ -1,0 +1,62 @@
+{
+  "dataset_name": "lafan1",
+  "related_publication": "Robust Motion In-betweening",
+  "location": "data/datasets/bvh/lafan1",
+  "format": "bvh",
+  "fps": 30,
+  "feet_info": {
+    "left_idx": [3, 4],
+    "right_idx": [7, 8]
+  },
+  "train_config": {
+    "window": 10,
+    "offset": 10,
+    "start_frame": 0,
+    "shuffle": true,
+    "file_matcher": "prefix",
+    "match_values": [
+      "subject1",
+      "subject2",
+      "subject3",
+      "subject4"
+    ]
+  },
+  "test_config": {
+    "window": 65,
+    "offset": 40,
+    "start_frame": 0,
+    "shuffle": false,
+    "file_matcher": "suffix",
+    "match_values": [
+      "subject5"
+    ]
+  },
+  "preprocessing_config": {
+    "start_centered": true,
+    "skeleton_scale": 1
+  },
+  "skeleton_joint_labels": {
+    "0": "root",
+    "1": "left_leg",
+    "2": "left_leg",
+    "3": "left_leg",
+    "4": "left_leg",
+    "5": "right_leg",
+    "6": "right_leg",
+    "7": "right_leg",
+    "8": "right_leg",
+    "9": "spine",
+    "10": "spine",
+    "11": "spine",
+    "12": "head",
+    "13": "head",
+    "14": "left_hand",
+    "15": "left_hand",
+    "16": "left_hand",
+    "17": "left_hand",
+    "18": "right_hand",
+    "19": "right_hand",
+    "20": "right_hand",
+    "21": "right_hand"
+  }
+}
